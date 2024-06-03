@@ -3,7 +3,6 @@
 
 ultralytics
 dill
-os
 av
 streamlit_webrtc
 
