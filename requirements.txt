@@ -3,12 +3,10 @@
 
 ultralytics
 dill
-<<<<<<< HEAD
 os
 av
 streamlit_webrtc
-=======
->>>>>>> refs/remotes/origin/main
+
 
 # Base ------------------------------------------------------------------------
 gitpython
