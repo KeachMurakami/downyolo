@@ -7,7 +7,11 @@ from ultralytics import YOLO
 
 st.title("Downy mildew detector")
 
+
+# 一時フォルダ作成
 TMP_DIR_PATH = "tmp"
+if not os.path.exists(TMP_DIR_PATH):
+    os.makedirs(TMP_DIR_PATH)
 
 threshold = st.sidebar.slider('検出感度', 50, 100, 80)
 refresh = st.sidebar.slider('フレーム数', 20, 60, 40)
